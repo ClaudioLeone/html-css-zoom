@@ -22,7 +22,18 @@ header{
 /* UTILITIES */
 .flex{
     display: flex;
+}
+
+.wrap{
     flex-wrap: wrap;
+}
+
+.margin-auto{
+    margin: 0 auto;
+}
+
+.no-margin{
+    margin: 0;
 }
 
 /* CLASSES */
@@ -76,4 +87,51 @@ header{
 .text{
     color: white;
     font-size: 0.7rem;
+}
+
+.footer-container{
+    position: absolute;
+    width: 100%;
+    height: 55px;
+    background-color:#2d2d2d;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.icons-container{
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.top-icons-container{
+    justify-content: flex-end;
+}
+
+.share-btn{
+    color: lime;
+}
+
+.icons{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    font-size: 1.5rem;
+}
+
+.icons-text{
+    font-size: 0.7rem;
+}
+
+.arrow-up{
+    font-size: 0.7rem;
+}
+
+.end-call-btn{
+    color: red;
+    background-color: #515151;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0 5px;
 }
